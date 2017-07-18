@@ -1,0 +1,50 @@
+####################################################################
+Junit framework i POM pattern. 
+
+Nakon svake operacije dodavanja, editovanja i brisanja entiteta vrsi se provera sa bazom. 
+Takodje na kraju izvrsavanja svih test metoda potrebno je izrsiti log out sa portala i zatvoriti pretrazivac.
+
+Baza se nalazi na adresi: 136.243.5.37
+Naziv baze: tg_test
+broj porta:33062
+user name: root
+password: cubesqa
+#####################################################################
+
+##############
+LOGOVANJE
+##############
+1.Korisnik se loguje na portal "http://admin:admin@maltatest.school.cubes.rs/adminuser/login"
+	user name: ivan.stepanovic@cubes.rs
+	password: Ivan123
+
+2. Korisnik bira Maltu kao destinaciju.
+
+#################
+COMPANIES
+##################
+
+3. Korisnik klikce na 'Companies' i bira opciju 'Add New Company'
+4. Korisnik unosi proizvoljne vrednosti na sva polja (osim Agent) i bira opciju 'Create company'.  
+Obratite paznju da vam se iz combo boxa 'Locations' bira 'Malta' posto smo nju na pocetku izabrali kao destinaciju!
+5. Korisnik unosi u polje 'Search' naziv kompanije iz prvog reda u tabeli i bira opciju 'Edit'.
+6. Korisnik unosi nove proizvoljne vrednosti na sva polja i bira opciju 'Edit company'.
+7. Korisnik unosi u polje 'Search' naziv kompanije iz prvog reda u tabeli i bira opciju 'Delete'.
+
+#################################################
+ADVERTISING 
+##################################################
+1. Korisnik klikce na 'Advertising' i bira opciju 'Add new Ad'
+2. Korisnik unosi proizvoljne vrednosti na sva polja i bira opciju 'Save&Create New'
+3. Korisnik unosi u polje 'Search' naziv advertise-a iz prvog reda u tabeli i bira opciju 'Update&Create New'.
+4. Korisnik unosi nove proizvoljne vrednosti na sva polja osim na polje 'current image' i bira opciju 'Edit company'.
+5. Korisnik unosi u polje 'Search' naziv advertise-a iz prvog reda u tabeli i bira opciju 'Delete'.
+
+#######
+PAGES
+#######
+1. Korisnik klikce na 'Pages' i bira opciju 'Create New Page'
+2. Korisnik unosi proizvoljne vrednosti na sva polja i bira opciju 'Save&Create New'
+3. Korisnik unosi u polje 'Search' naziv advertise-a iz prvog reda u tabeli i bira opciju 'Update&Create New'.
+4. Korisnik unosi nove proizvoljne vrednosti na sva polja osim na polje 'current image' i bira opciju 'Edit company'.
+5. Korisnik unosi u polje 'Search' naziv advertise-a iz prvog reda u tabeli i bira opciju 'Delete'.

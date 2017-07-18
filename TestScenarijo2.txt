@@ -1,0 +1,43 @@
+﻿####################################################################
+Junit framework i POM pattern. 
+
+Nakon svake operacije dodavanja, editovanja i brisanja entiteta vrsi se provera sa bazom. 
+Takodje na kraju izvrsavanja svih test metoda potrebno je izrsiti log out sa portala i zatvoriti pretrazivac.
+
+Baza se nalazi na adresi: 136.243.5.37
+Naziv baze: tg_test
+broj porta:33062
+user name: root
+password: cubesqa
+#####################################################################
+
+##############
+LOGOVANJE
+##############
+1.Korisnik se loguje na portal "http://admin:admin@maltatest.school.cubes.rs/adminuser/login"
+	user name: ivan.stepanovic@cubes.rs
+	password: Ivan123
+
+2. Korisnik bira Maltu kao destinaciju.
+
+#################
+CITIES
+#################
+
+#3. Korisnik klikce na ‘Cities’ i bira opciju 'Add New City’.
+#4. Korisnik unosi proizvoljne vrednosti na sva polja i bira opciju ’Save And Add New Record’.  
+#- Iz combo boxa se bira region u okviru Malte!
+#5. Korisnik cekira check box ‘Featured’ u delu City content.
+6. Korisnik klikce na ‘Change Order’ i prvi entitet u tabeli City prevlaci na proizvoljnu poziciju u okviru tabele (drag-and-drop).
+7. Korisnik u polju ’Search’ unosi ime grada po zelji i bira opciju ‘Edit city’.
+8. Korisnik unosi nove proizvoljne vrednosti na sva polja i bira opciju ‘Save & Go To Next Language’.
+
+##########
+NEWS
+##########
+
+1. Korisnik klikce na 'News' i bira opciju 'Add New News Entry'.
+2. Korisnik unosi proizvoljne vrednosti na sva polja i bira opciju ’Save & back to list’.
+3. Korisnik unosi u polje 'Search' naziv news-a iz prvog reda u tabeli i bira opciju 'Edit post'.
+4. Korisnik unosi nove proizvoljne vrednosti na sva polja i bira opciju 'Save & back to list'.
+5. Korisnik unosi u polje 'Search' naziv advertise-a iz prvog reda u tabeli i bira opciju 'Delete post'.
