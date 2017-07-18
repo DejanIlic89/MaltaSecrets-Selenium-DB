@@ -2,7 +2,7 @@
 Junit framework i POM pattern. 
 
 Nakon svake operacije dodavanja, editovanja i brisanja entiteta vrsi se provera sa bazom. 
-Takodje na kraju izvrsavanja svih test metoda potrebno je izrsiti log out sa portala i zatvoriti pretrazivac.
+Takodje na kraju izvrsavanja svih test metoda izrsiti log out sa portala i zatvoriti pretrazivac.
 
 Baza se nalazi na adresi: 136.243.5.37
 Naziv baze: tg_test
