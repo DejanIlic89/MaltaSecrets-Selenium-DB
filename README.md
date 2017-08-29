@@ -1,4 +1,4 @@
 # selenium
 
-# Testiranje turistickog portala. 
-# Poredjenje sa bazom podataka.
+Testiranje turistickog portala. 
+Poredjenje sa bazom podataka.
